@@ -1,0 +1,30 @@
+{{ define "main" }}
+<main class="list">
+	<h1>{{ .Title }}</h1>
+	<div class="season">
+		<img src="/assets/img/feature/{{ .Params.feature }}" alt="" />
+		<div class="content">
+			<p>{{ .Description }}</p>
+			<p>{{ .Content }}</p>
+			<ul>
+			{{ with index $.Site.Data.theprofit .File.BaseFileName }}
+				<li>Premiere: {{ range first 1 (sort .episodes "air_date") }}{{ dateFormat "January 2, 2006" .air_date }}{{ end }}</li>
+				{{ if .completed }}
+				<li>Finale: {{ range last 1 (sort .episodes "air_date") }}{{ dateFormat "January 2, 2006" .air_date }}{{ end }}</li>
+				<li># of episodes: {{ len .episodes }}</li>
+				{{ end }}
+			{{ end }}
+			</ul>
+		</div>
+	</div>
+	<br />
+	<table>
+		<tr><th>#</th><th>Episode Name</th><th>Date Aired</th></tr>
+	{{ with index .Site.Data.theprofit .File.BaseFileName }}
+	{{ range .episodes }}
+		<tr class="episode"><td>{{ .episode }}</td><td>{{ .name }}</td><td>{{ dateFormat "January 2, 2006" .air_date }}</td></tr>
+	{{ end }}
+	{{ end }}
+	</table>
+</main>
+{{ end }}

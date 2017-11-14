@@ -1,0 +1,288 @@
+/* ----------------------------------------------------------------------------
+ *  Table of Contents
+ * ----------------------------------------------------------------------------
+ * # Structure
+ * # Typography
+ * # Content
+ * # Elements
+ * # Generic Classes
+ * --------------------------------------------------------------------------*/
+
+/* Font colors belong in the typography section meanwhile background colors will be in structure or elements, depending on what they're for.*/
+
+/************************************************
+ * Structure
+ * *********************************************/
+html,
+body{
+	min-height: 100%;
+}
+
+html{
+	box-sizing: border-box;
+}
+	*,
+	*:before,
+	*:after{
+		box-sizing: inherit;
+	}
+
+body{
+	background-color: #15444C;
+	padding: 20px 18% 45px;
+}
+
+body > header{
+	padding: 20px 0 35px;
+}
+	body > header p{
+		margin: 0;
+	}
+		body > header img{
+			height: 45px;
+			vertical-align: middle;
+		}
+
+#page{
+	position: relative;
+	border-left: 15px solid #FCCE01;
+	background-color: #FFFFFF;
+	padding: 60px 10px 10px;
+}
+	#page nav{
+		position: absolute;
+		top: 10px; right: -20px; left: -35px;
+		background: #545454 url("/assets/img/logo-icon.svg") 99% 50% / auto 50% no-repeat;
+		padding: 0 15px;
+		height: 55px;
+		line-height: 55px;
+		box-shadow: 0 4px 2px -2px rgba(0,0,0,0.3);
+	}
+		#page nav::before,
+		#page nav::after{
+			position: absolute;
+			bottom: -20px;
+			border-top: 20px solid #767676;
+			content: "";
+			z-index: -1;
+		}
+
+		#page nav::before{
+			left: 0;
+			border-left: 20px solid transparent;
+		}
+
+		#page nav::after{
+			right: 0;
+			border-right: 20px solid transparent;
+		}
+
+		#page nav ul{
+			display: flex;
+			margin: 0;
+		}
+			#page nav li{
+				padding: 0 10px;
+				height: 55px;
+				list-style: none;
+			}
+
+#page > footer p{
+	margin: 40px 0 0;
+	border-top: 1px solid #000000;
+	text-align: center;
+	font-size: smaller;
+}
+
+
+
+/************************************************
+ * Typography
+ * *********************************************/
+html{
+	font-size: 62.5%;
+}
+
+body{
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.6rem;
+	line-height: 1.5;
+}
+
+body > header{
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 1.8rem;
+}
+	body > header span{
+		font-family: "Arial Black";
+		font-weight: bold;
+	}
+
+#page nav a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+body main a,
+body main a:visited{
+	color: #15444C;
+}
+
+
+
+/************************************************
+ * Content
+ * *********************************************/
+/* All Content Types */
+main .content a{
+	color: #0000FF;
+	text-decoration: underline;
+}
+
+main blockquote{
+	border-left: 3px solid #000000;
+	padding-left: 20px;
+	font-size: larger;
+	font-style: italic;
+}
+
+main form{
+}
+	main form label{
+		display: inline-block;
+		width: 15%;
+		min-width: 60px;
+	}
+
+	main form input[type=email],
+	main form input[type=text]{
+		margin-bottom: 10px;
+	}
+
+main h1,
+main h1 a{
+	color: #333333;
+}
+
+main hr{
+	border: 0;
+	background-color: #CCC;
+	height: 1px;
+}
+
+main img{
+	max-width: 100%;
+}
+	main figcaption{
+		color: #777777;
+		text-align: center;
+		font-style: italic;
+	}
+
+main pre{
+	margin-bottom: 1.6em;
+	background: #EEE;
+	padding: 1.6em;
+	max-width: 100%;
+	line-height: 1.6;
+	overflow: auto;
+	font-family: Courier, monospace;
+	font-size: 1.5rem;
+}
+
+/* Section - Blog */
+main article{
+	margin-top: 30px;
+	border-top: 1px dotted #DDDDDD;
+	padding-top: 20px;
+}
+
+/* Section - The Profit */
+body.section-the-profit main.list .season{
+	display: flex;
+	align-items: flex-start;
+	margin: 20px auto 0;
+	background-color: #DEDEDE;
+	width: 90%;
+}
+	body.section-the-profit main.list .season:first-child{
+		margin-top: 0;
+	}
+
+	body.section-the-profit main.list .season:nth-child(odd){
+		flex-direction: row-reverse;
+	}
+
+	body.section-the-profit main.list .season img{
+		width: 65%;
+	}
+
+	body.section-the-profit main.list .season .content{
+		padding: 10px 20px;
+	}
+		body.section-the-profit main.list .season .content a{
+			color: #000000;
+		}
+
+
+
+/************************************************
+ * Elements
+ * *********************************************/
+.icon-circle{
+	border-radius: 50%;
+	background-color: #333333;
+	padding-top: 8px;
+	width: 32px;
+	height: 32px;
+	color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+}
+	.icon-circle.fa-twitter{
+		background-color: #00ACED;
+	}
+
+	.icon-circle.fa-facebook{
+		background-color: #3B5998;
+	}
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+	tr:nth-child(even){ background-color: #F2F2F2; }
+
+	td, th{
+		border: 1px solid #DDD;
+		padding: 5px;
+	}
+
+	th{
+		background-color: #15444C;
+		color: #FFFFFF;
+	}
+
+
+
+/************************************************
+ * Generic Classes
+ * *********************************************/
+.alignleft{
+	float: left;
+	margin-right: 1.5rem;
+}
+
+.aligncenter{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	clear: both;
+}
+
+.alignright{
+	float: right;
+	margin-left: 1.5rem;
+}

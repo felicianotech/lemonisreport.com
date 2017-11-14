@@ -1,0 +1,40 @@
+baseURL = "https://LemonisReport.com/"
+languageCode = "en-us"
+title = "Lemonis Report"
+
+theme = "lemonisreport.com-2017"
+
+googleAnalytics = ""
+
+enableEmoji = true
+
+[blackfriday]
+	hrefTargetBlank	=	true
+
+[[menu.main]]
+	name	= "Home"
+	url		= "/"
+	weight	= -1
+
+[[menu.main]]
+	name	= "The Profit Episodes"
+	url		= "/the-profit/"
+	weight	= 5
+
+[[menu.main]]
+	name	= "Meetup"
+	url		= "/meetup/"
+	weight	= 10
+
+[[menu.main]]
+	name	= "Newsletter"
+	url		= "/newsletter/"
+	weight	= 15
+
+[[menu.main]]
+	name	= "Contact Us"
+	url		= "/contact/"
+	weight	= 20
+
+[social]
+	twitter = "FelicianoTech"

@@ -1,0 +1,1 @@
+# LemonisReport.com [![CircleCI Build Status](https://circleci.com/gh/felicianotech/lemonisreport.com.svg?style=shield)](https://circleci.com/gh/felicianotech/lemonisreport.com) [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/felicianotech/lemonisreport.com/master/LICENSE)

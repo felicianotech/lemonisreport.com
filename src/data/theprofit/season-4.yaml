@@ -1,0 +1,97 @@
+completed: true
+episodes:
+  - episode: 401
+    name: "Farrell's Ice Cream Parlour Restaurants"
+    air_date: 2016-08-22
+    deal: true
+    description: Two partners revived an iconic restaurant chain, only to run it right back into the ground. If Marcus Lemonis can't help restore leadership to this beloved brand, it'll melt down - for good.
+  - episode: 402
+    name: "DiLascia"
+    air_date: 2016-08-29
+    deal: true
+    description: A clothing brand is floundering due to its owner's inconsistent designs and wasteful spending. His brother and sister have stepped in to help, but even they can't get him to change his ways.
+  - episode: 403
+    name: "The Soup Market"
+    air_date: 2016-09-05
+    deal: true
+    description: A chain of soup restaurants has been struggling since its co-owner's sudden passing. The remaining owner's stubbornness and lack of business know-how are putting a strain on the company.
+  - episode: 404
+    name: "Flex Watches"
+    air_date: 2016-09-12
+    deal: true
+    description: Two entrepreneurs struggle to keep their charity-centric watch business afloat. Their rushed process, unfocused branding, and emotional baggage have gotten in the way of their original aim.
+  - episode: 405
+    name: "Honest Foods"
+    air_date: 2016-09-19
+    deal: true
+    description: A Chicago catering company has suffered a steep drop in sales - and its anxious owner is taking out his frustration on his employees.
+  - episode: 406
+    name: "Murchison-Hume"
+    air_date: 2016-09-26
+    deal: true
+    description: The owner of a cleaning product line is putting her business at risk with aristocratic marketing, high prices, and an unwillingness to face reality.
+  - episode: 407
+    name: "Pacific Hospitality"
+    air_date: 2016-10-03
+    deal: true
+    description: A Los Angeles furniture company struggles with old inventory and quality control. When Marcus brings in another business to advise them, tensions threaten to put both companies in jeopardy.
+  - episode: 408
+    name: "Tea2Go"
+    air_date: 2016-10-10
+    deal: true
+    description: A father and son are leading their tea shop franchise into dangerous territory. If Marcus can't get them to separate their business and personal lives, tea time will be over for good.
+  - episode: 409
+    name: "Bowery Kitchen Supplies"
+    air_date: 2016-10-17
+    deal: true
+    description: A beloved kitchen supply store in Manhattan faces extinction after its owners' divorce. If Marcus can't figure out a way to get them working together, the deal may go up in smoke.
+  - episode: 410
+    name: "Los Gemelos"
+    air_date: 2016-11-21
+    deal: true
+    description: A Mexican-American's tortilla business is being decimated by big competitors. Marcus will team up with George Lopez and the owner to develop products and make this American dream a reality.
+  - episode: 411
+    name: "Susana Monaco"
+    air_date: 2016-11-28
+    deal: true
+    description: A Manhattan-based fashion designer is failing because she lets her family and co-workers overpower her. If Marcus can't help her gain self-confidence, this business will unravel.
+  - episode: 412
+    name: "Swim By Chuck Handy"
+    air_date: 2017-06-05
+    deal: true
+    description: A family-run swimwear company struggles to connect with the consumer.
+  - episode: 413
+    name: "Windward Boardshop"
+    air_date: 2017-06-12
+    deal: true
+    description: A Chicago snowboard shop has gone downhill after its owners tried to expand too quickly. The three partners don't communicate, leaving one of them sidelined.
+  - episode: 414
+    name: "Astae Products"
+    air_date: 2017-06-19
+    deal: true
+    description: A family-owned haircare company is at a breaking point because of the father's costly side projects.
+  - episode: 415
+    name: "Overtone Acoustics"
+    air_date: 2017-06-26
+    deal: true
+    description: A sound-proofing company started by two best friends is in a downward spiral.
+  - episode: 416
+    name: "Bodhi Leaf Coffee Traders"
+    air_date: 2017-07-10
+    deal: true
+    description: A California entrepreneur went all in on a coffee business with no prior experience. His gamble paid off big, but now he's in over his head.
+  - episode: 417
+    name: "Hip Pops"
+    air_date: 2017-07-17
+    deal: true
+    description: A gelato popsicle company's profits have melted away due to its owner's waning work ethic. He jumped the gun by starting a franchise business and struggles to take responsibility.
+  - episode: 418
+    name: "Zoe's Chocolate Co."
+    air_date: 2017-07-24
+    deal: true
+    description: A family-owned chocolate shop was started by three siblings in support of their chocolatier father. Despite circumstances becoming desperate, the family is resistant to change.
+  - episode: 419
+    name: "Top 10 Rules for Success"
+    air_date: 2017-07-31
+    deal: true
+    description: In his quest to bring struggling companies back from the brink, Marcus Lemonis has shown us just about everything small business has to offer - from heartwarming stories of success to jaw-dropping cautionary tales.
