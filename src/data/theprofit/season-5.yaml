@@ -5,3 +5,28 @@ episodes:
     air_date: 2017-11-21
     deal: true
     description: Marcus Lemonis looks back at which deals paid off big time and which cost him millions.
+  - episode: 502
+    name: "Tumbleweed Tiny Homes"
+    air_date: 2017-11-28
+    deal: true
+    description: "A Colorado manufacturer of tiny homes faces massive issues. Its owner's lack of leadership has put the business in over a million dollars of debt."
+  - episode: 503
+    name: "Detroit Denim"
+    air_date: 2017-12-05
+    deal: true
+    description: "At a Detroit-based denim business, the jeans are stiff... and so are the owners. One of them stamps out any idea that isn't his own, while another obsesses about the smallest of details."
+  - episode: 504
+    name: "Monica Potter Home"
+    air_date: 2017-12-12
+    deal: true
+    description: "Monica Potter of the hit television series Parenthood started a home goods store near her family in rural Ohio. She doesn't have time to run the store herself, but can't relinquish control."
+  - episode: 505
+    name: "Mr. Cory's Cookies"
+    air_date: 2017-12-19
+    deal: true
+    description: "A cookie company owned by a 13-year-old entrepreneur and his mother faces serious growing pains. Cory's mother struggles to trust anyone and is resistant to change."
+  - episode: 506
+    name: "Rayjus"
+    air_date: 2018-01-09
+    deal: true
+    description: "At a sports apparel business in Illinois, the product is top notch, but something is fishy. The facility is a sweatshop, the employees are in revolt, and an owner has a troubling side gig."
