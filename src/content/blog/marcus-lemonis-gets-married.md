@@ -14,6 +14,8 @@ Marcus is a great television personality and when I meet him in person, I quickl
 
 It looks like Marcus has finally found the most important "partner" that he'll ever have, a woman named Bobbi Lemonis. Congratulations to you Mr. Lemonis. We, your fans, are happy to see that you've invested in yourself.
 
+Pictures below are from Marcus' Twitter & Instagram accounts:
+
 ![](/assets/img/article/marcus-wedding-1.jpg)
 ![](/assets/img/article/marcus-wedding-2.jpg)
 ![](/assets/img/article/marcus-wedding-3.jpg)
