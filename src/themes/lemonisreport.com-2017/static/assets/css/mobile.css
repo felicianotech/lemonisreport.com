@@ -11,21 +11,9 @@ main{
  * *********************************************/
 @media(max-width: 900px){
 
-	main{
+	body{
+		padding: 15px 5% 20px;
 	}
-
-	body > header div.social-icons{
-	}
-
-	body > header a.toggle{
-	}
-
-	body > header ul{
-	}
-		body > header li{
-		}
-
-		}
 }
 
 
